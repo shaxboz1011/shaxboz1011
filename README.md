@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/shaxboz1011">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=00DC82&center=true&vCenter=true&width=640&lines=Building+fast+web+platforms+with+Nuxt+%26+.NET;Programming+and+controlling+PLCs+%26+devices;Training+AI+models+for+real-world+machines;From+the+sensor+to+the+screen+%E2%80%94+end+to+end" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=00DC82&center=true&vCenter=true&width=640&lines=Building+fast+web+platforms+with+Nuxt+%26+.NET;Programming+and+controlling+PLCs+%26+devices;Writing+software+for+X-ray+imaging+systems;Training+AI+models+for+real-world+machines;From+the+sensor+to+the+screen+%E2%80%94+end+to+end" alt="Typing SVG" />
   </a>
 </p>
 
@@ -20,9 +20,10 @@
 
 ## About me
 
-I'm an engineer who works across the full stack of modern systems: **web platforms**, **industrial automation**
-and **artificial intelligence**. I build the interfaces people use, the services behind them, the control logic that
-runs machines on the shop floor, and the models that make those machines smarter.
+I'm an engineer who works across the full stack of modern systems: **web platforms**, **industrial automation**,
+**medical imaging** and **artificial intelligence**. I build the interfaces people use, the services behind them, the
+control logic that runs machines on the shop floor and X-ray equipment in the clinic, and the models that make those
+machines smarter.
 
 ```csharp
 public sealed class Shaxboz : Engineer
@@ -34,6 +35,7 @@ public sealed class Shaxboz : Engineer
     public string[] Automation => ["PLC programming", "IEC 61131-3", "Structured Text", "Ladder Logic", "SCADA / HMI"];
     public string[] Protocols  => ["Modbus RTU/TCP", "OPC UA", "MQTT", "Serial / RS-485"];
     public string[] Devices    => ["C / C++", "Microcontrollers", "Arduino", "Raspberry Pi"];
+    public string[] Medical    => ["X-ray systems", "Radiography", "DICOM", "Image acquisition & processing"];
     public string[] AI         => ["Python", "PyTorch", "Model training", "Computer vision", "Edge AI"];
 
     public string Motto => "From the sensor to the screen.";
@@ -44,17 +46,24 @@ public sealed class Shaxboz : Engineer
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h3>🌐 Web platforms</h3>
       Production-grade applications with <b>Nuxt</b> on the front end and <b>C# / .NET</b> on the back end —
       SSR, clean APIs, real-time dashboards and polished UI.
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h3>⚙️ Industrial automation</h3>
       Writing and commissioning <b>PLC</b> programs, controlling devices and production lines, and connecting
       hardware to software through <b>Modbus</b>, <b>OPC UA</b> and <b>MQTT</b>.
     </td>
-    <td width="33%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🩻 Medical imaging</h3>
+      Software for <b>X-ray equipment</b> — controlling the generator and detector, acquiring and processing
+      radiographic images, and integrating with hospital systems through <b>DICOM</b>. Safety comes first.
+    </td>
+    <td width="50%" valign="top">
       <h3>🧠 Artificial intelligence</h3>
       Collecting data, <b>training and fine-tuning models</b>, and deploying them where they matter —
       from cloud services to edge devices next to the machine.
@@ -73,6 +82,8 @@ flowchart LR
     E -- "predictions" --> C
     D -- "commands" --> C
     C -- "setpoints" --> B
+    F["🩻 X-ray system<br/>generator & detector"] -- "images / DICOM" --> C
+    C -- "exposure control" --> F
 ```
 
 ## Tech stack
@@ -100,6 +111,15 @@ flowchart LR
   <img src="https://img.shields.io/badge/MQTT-IIoT-0D1117?style=for-the-badge&logo=mqtt&logoColor=white&labelColor=660066" alt="MQTT" />
 </p>
 
+**Medical Imaging**
+
+<p>
+  <img src="https://img.shields.io/badge/X--ray-Systems-0D1117?style=for-the-badge&labelColor=1F6FEB" alt="X-ray systems" />
+  <img src="https://img.shields.io/badge/Radiography-Imaging-0D1117?style=for-the-badge&labelColor=1F6FEB" alt="Radiography" />
+  <img src="https://img.shields.io/badge/DICOM-Integration-0D1117?style=for-the-badge&labelColor=1F6FEB" alt="DICOM" />
+  <img src="https://img.shields.io/badge/Image-Processing-0D1117?style=for-the-badge&logo=opencv&logoColor=white&labelColor=1F6FEB" alt="Image processing" />
+</p>
+
 **AI & Data**
 
 <p>
@@ -114,10 +134,11 @@ flowchart LR
 
 ## Currently focused on
 
+- 🩻 Writing software for **X-ray equipment** — device control, image acquisition and processing
 - 🔗 Connecting PLC-controlled equipment to modern **.NET** services and **Nuxt** dashboards in real time
 - 🧠 Training AI models for **predictive maintenance** and **visual quality inspection**
 - ⚡ Running models on the **edge**, close to the machines they monitor
-- 🤝 Open to collaboration on **industrial IoT**, **automation** and **AI** projects
+- 🤝 Open to collaboration on **industrial IoT**, **automation**, **medical imaging** and **AI** projects
 
 ## GitHub stats
 
